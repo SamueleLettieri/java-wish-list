@@ -1,5 +1,6 @@
 package org.lessons.java.christmas;
 
+import java.util.Collections;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -28,7 +29,7 @@ public class Main {
 		
 		s.close();
 		
-		list.sort(null);
+		Collections.sort(list);
 		System.out.println("Lista desideri: " + list);
 	}
 	
